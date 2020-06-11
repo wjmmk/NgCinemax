@@ -12,4 +12,4 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 
 ##
 
-![](src/assets/img/Muestra.jpg)
+![](src/assets/img/Muestra2.jpg)
