@@ -12,6 +12,8 @@ import { WeeklyBilboardsComponent } from './landing-page/weekly-bilboards/weekly
 import { PremieresComponent } from './landing-page/premieres/premieres.component';
 import { CarrouselComponent } from './landing-page/carrousel/carrousel.component';
 import { FooterComponent } from './landing-page/footer/footer.component';
+import { ServiceWorkerModule } from '@angular/service-worker';
+import { environment } from '../environments/environment';
 
 
 @NgModule({
@@ -30,7 +32,8 @@ import { FooterComponent } from './landing-page/footer/footer.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })
   ],
   providers: [],
   bootstrap: [AppComponent]
