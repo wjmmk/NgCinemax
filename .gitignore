@@ -33,6 +33,7 @@ speed-measure-plugin*.json
 
 # misc
 /.sass-cache
+/.firebase
 /connect.lock
 /coverage
 /libpeerconnection.log
@@ -45,3 +46,4 @@ testem.log
 .DS_Store
 Thumbs.db
 debug.log
+
